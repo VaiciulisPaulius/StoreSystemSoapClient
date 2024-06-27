@@ -1,0 +1,24 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <ns2:getReceiptResponse xmlns:ns2="http://eif.viko.lt/pvaiciulis/springsoap/gen">
+            <ns2:receipt>
+                <ns2:id>0</ns2:id>
+                <ns2:discount_card>
+                    <ns2:barCode>5714040</ns2:barCode>
+                    <ns2:name>Discount card</ns2:name>
+                    <ns2:price>2.0</ns2:price>
+                    <ns2:category>Member</ns2:category>
+                    <ns2:person>
+                        <ns2:birthDate>2002-05-31T00:00:00.000+03:00</ns2:birthDate>
+                        <ns2:firstName>Paulius</ns2:firstName>
+                        <ns2:lastName>Vaiciulis</ns2:lastName>
+                        <ns2:phoneNumber>37069744323</ns2:phoneNumber>
+                    </ns2:person>
+                </ns2:discount_card>
+                <ns2:subtotal>100.0</ns2:subtotal>
+                <ns2:total>60.0</ns2:total>
+            </ns2:receipt>
+        </ns2:getReceiptResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
